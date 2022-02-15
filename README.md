@@ -88,9 +88,13 @@ Event code :
 0xE5 (G-Sensor) 0 Extreme shock on 
 
 for example :
+
 send data client to server : 
+
 3400000000006ACF9A01E0010000000000000061FA5E460000000000000000000000000000C00015A96C00237B6700041D00B5080D0095E8
+
 data convert in server to this structure :
+
 deviceId=106207154, eventCodeDecimal='224', eventCodeHex='e0', eventCode='normal point', eventCodeInt='-32', eventVersion=1, driverId=0, totalDrivingTime_Minute=0, dateTime_UnixTimeSecond=1643798086000, gpsSpeed=0.0, vehicleSensorSpeed=0, maxSpeed_Gps=0.0, maxSpeed_vehicleSensor=0, engineRPM=0, totalTraveledDistance_Gps=0, totalTraveledDistance_VehicleSensor=0, ioStatus=192, gpsStatus='2D FIX', gpsStatusInt=2, latitude=36.3424768, longitude=59.5289856, altitude=1053.0, bearing=181.0, numberOfSatellites=8, pDOP=13, extraDataLength_Max30=0, extraData=[]
 
 
