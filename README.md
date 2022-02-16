@@ -28,9 +28,11 @@ just server get connection from client and wirte answer to client for example " 
 
 سپس  تعداد کلاینت ها را افزایش داده مثلا به 10 عدد و همزمان همه کلاینت ها به سرور اتصال گرفته و هر کدام به صورت مستقل پیام خود را دریافت کرده و چاپ نمایند
 
-commit now code and send message whatsapp to me
+at the moment commit code and send message whatsapp to me
+
 
 this is a simple project !!!
+
 
 # phase tow of project : 
 
@@ -43,6 +45,7 @@ byte[] data = new byte[]{1,2,4,5,6,6,7,8,9,-1,11,-124};
               hex :  01 02 04 05 06 06 07 08 09 -1 0b 11 7f
 
 
+sample event code  : 
 
 3400000000006ACF9A01E0010000000000000061FA5E460000000000000000000000000000C00115A96C00237B6700041D00B5080D0095E8
 
