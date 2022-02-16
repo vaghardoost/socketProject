@@ -1,7 +1,7 @@
 # ProjectWithFarhang
 Socket Programing MultiThread  Redis Kafka Geo and ...
 
-# one phase of project : 
+# phase one of project : 
 
 this project is about socket programming and multi thread programming
 
@@ -17,18 +17,22 @@ server that can send and receive data from client
 
 after create server and client
 
-send data from client to server for example ""hello server""
+send data from client to server for example ""hello server i am client 1 ""
 
-and server will send back data to client for example ""hi client""
+and server will send back data to client for example ""hi client 1""
 
 you can run 10 client  and send data to one server and server will send back data to all client
-just server get connection from client and wirte answer to client for example " hi client " + thread getID : hi client 1020   == > 1020 thread id
+just server get connection from client and wirte answer to client for example " hi client number of client " + thread getID : hi client 1 1020   == > 1020 thread id
 
+فاز یک  : یک کلاینت و یک سرور  ایجاد کنید  شروع کننده ارتباط کلاینت میباشد کلاینت اقدام به ارسال پیام به سرور  میکند و در همان ارتباط سرور پاسخ کلاینت رامیدهد براساس الگوی بالا
 
+سپس  تعداد کلاینت ها را افزایش داده مثلا به 10 عدد و همزمان همه کلاینت ها به سرور اتصال گرفته و هر کدام به صورت مستقل پیام خود را دریافت کرده و چاپ نمایند
+
+commit now code and send message whatsapp to me
 
 this is a simple project !!!
 
-# tow phase of project : 
+# phase tow of project : 
 
 stracture data send to server  :
 
@@ -71,7 +75,7 @@ byte[] data = new byte[]{1,2,4,5,6,6,7,8,9,-1,11,-124};
 
 #Number Of Data Element (1 Byte)
 
-this example event strat from client to server : 
+Data or command from client to server :
 ![alt text](https://github.com/MfDevNet/ProjectWithFarhang/blob/main/Screen%20Shot%202022-02-15%20at%209.39.44%20PM.png?raw=true)
 
 Event version is fix number  and not change : 0x01 
