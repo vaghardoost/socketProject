@@ -46,8 +46,7 @@ byte[] data = new byte[]{1,2,4,5,6,6,7,8,9,-1,11,-124};
 
 3400000000006ACF9A01E5010000000000000061FA5E460000000000000000000000000000C00115A96C00237B6700041D00B5080D0095E8
 
-**
-#General structure of packets sent from the client to the server :
+**#General structure of packets sent from the client to the server :
 
 #Length (4 Byte)
 
@@ -63,8 +62,7 @@ byte[] data = new byte[]{1,2,4,5,6,6,7,8,9,-1,11,-124};
 
 #client Serial Number (4 Byte) 
 
-#Number Of Data Element (1 Byte)
-**
+#Number Of Data Element (1 Byte)**
 
 
 this example event strat from client to server : 
